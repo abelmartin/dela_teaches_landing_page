@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | Dela Teaches{% else %}{{ site.title }}{% endif %}</title>
+  
+  <link rel="shortcut icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- MailerLite Universal Script -->
+  <script src="{{ '/scripts/universal.js' | relative_url }}" type="text/javascript"></script>
+  <script>
+    window.ml = function () {
+      (window.ml.q = window.ml.q || []).push(arguments)
+    }
+    ml('account', 29791);
+    ml('initializePage', '162193567717000433');
+    ml('enablePopups', '');
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-955CNG97CM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-955CNG97CM');
+  </script>
+  
+  {% seo %}
+</head>
+<body>
+  {% include header.html %}
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

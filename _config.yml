@@ -1,0 +1,24 @@
+title: "Dela Teaches | Read, Speak & Grow"
+email: info@delateaches.com
+description: "Build your pronunciation, fluency, and reading skills so you can express yourself clearly and confidently in real conversations with Dela Teaches."
+url: "https://delateaches.com"
+baseurl: ""
+
+# Permalinks
+permalink: /blog/:title/
+
+# GitHub Pages compatibility
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor

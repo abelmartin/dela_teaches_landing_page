@@ -1,0 +1,37 @@
+---
+layout: default
+title: Language Learning Blog
+permalink: /blog/
+---
+
+<div class="container">
+  <div class="section-header">
+    <h1>Language Learning Blog</h1>
+    <p class="section-subtitle">Practical tips, reading guides, and strategies to improve your English fluency and pronunciation.</p>
+  </div>
+
+  <div class="blog-grid">
+    {% for post in site.posts %}
+      <article class="card blog-card">
+        <div class="blog-card-meta">
+          <span>{{ post.date | date: "%B %d, %Y" }}</span>
+          <span>&bull;</span>
+          <span>By {{ post.author | default: "Dela" }}</span>
+        </div>
+        <h2 class="blog-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="blog-card-footer">
+          <a href="{{ post.url | relative_url }}" class="btn btn-outline" style="padding: 0.4rem 1.1rem; font-size: 0.9rem;">Read Full Post &rarr;</a>
+        </div>
+      </article>
+    {% else %}
+      <p style="text-align: center; grid-column: 1 / -1;">No posts found yet. Check back soon!</p>
+    {% endfor %}
+  </div>
+
+  <div class="newsletter-box" style="margin-top: 4rem;">
+    <h2>Never Miss a Language Tip</h2>
+    <p>Subscribe to receive new articles, pronunciation guides, and reading recommendations directly in your inbox.</p>
+    {% include newsletter-form.html %}
+  </div>
+</div>

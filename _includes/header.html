@@ -1,0 +1,35 @@
+<header class="site-header">
+  <div class="container navbar">
+    <a href="{{ '/' | relative_url }}" class="nav-brand">
+      <img src="{{ '/images/D2CtYg59oiYAIz9FT7L4IwaFtR6wLApESnq575jR.png' | relative_url }}" alt="Dela Teaches Logo" class="nav-logo">
+      <span>Dela Teaches</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+      &#9776;
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a></li>
+      <li><a href="{{ '/lessons/' | relative_url }}" class="nav-link {% if page.url == '/lessons/' %}active{% endif %}">Lessons</a></li>
+      <li><a href="{{ '/testimonials/' | relative_url }}" class="nav-link {% if page.url == '/testimonials/' %}active{% endif %}">Testimonials</a></li>
+      <li><a href="{{ '/quick-start/' | relative_url }}" class="nav-link {% if page.url == '/quick-start/' %}active{% endif %}">Quick Start</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}" class="nav-link {% if page.url contains '/blog' %}active{% endif %}">Blog</a></li>
+      <li><a href="{{ '/newsletter/' | relative_url }}" class="nav-link {% if page.url == '/newsletter/' %}active{% endif %}">Newsletter</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="btn btn-primary" style="padding: 0.5rem 1.25rem; font-size: 0.95rem;">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var navToggle = document.getElementById('navToggle');
+    var navMenu = document.getElementById('navMenu');
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('open');
+      });
+    }
+  });
+</script>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="post">
+    <header class="post-header">
+      <span class="hero-tag">Language Tips & Growth</span>
+      <div style="margin-top: 1rem; margin-bottom: 1rem;">
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline" style="padding: 0.45rem 1.1rem; font-size: 0.9rem;">&larr; Back to all blog posts</a>
+      </div>
+      <h1 style="margin-top: 0.5rem;">{{ page.title }}</h1>
+      <div class="post-meta">
+        <span>By {{ page.author | default: "Dela" }}</span>
+        <span>&bull;</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <div class="newsletter-box" style="margin-top: 4rem;">
+      <h3>Enjoyed this article?</h3>
+      <p>Subscribe to the Dela Teaches newsletter for weekly tips on English fluency, pronunciation, and reading comprehension.</p>
+      {% include newsletter-form.html %}
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">&larr; Back to all blog posts</a>
+    </div>
+  </article>
+</div>
