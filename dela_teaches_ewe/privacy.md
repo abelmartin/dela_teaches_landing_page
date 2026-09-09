@@ -2,7 +2,7 @@
 layout: page
 title: Dela Teaches Ewe - Privacy Policy
 subtitle: Privacy Policy & Data Disclosures for the Dela Teaches Ewe Mobile Application
-permalink: /dela_teaches_ewe_privacy/
+permalink: /dela_teaches_ewe/privacy/
 ---
 
 <style>
@@ -195,14 +195,18 @@ permalink: /dela_teaches_ewe_privacy/
   <div class="app-privacy-badge">Mobile Application Privacy Notice</div>
   
   <div class="privacy-switch-notice">
-    <span>Looking for our main website privacy policy?</span>
-    <a href="{{ '/privacy/' | relative_url }}">View Website Privacy Policy &rarr;</a>
+    <span>Looking for our main website privacy policy or app support?</span>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="{{ '/dte_app/' | relative_url }}">App Support &amp; Info &rarr;</a>
+      <a href="{{ '/privacy/' | relative_url }}">Website Privacy Policy &rarr;</a>
+    </div>
   </div>
 
   <p><strong>Effective Date:</strong> September 08, 2026<br>
   <strong>Application Name:</strong> Dela Teaches Ewe (DTE)<br>
   <strong>Bundle Identifier:</strong> <code>com.abelmartin.delateachesewe</code><br>
   <strong>Publisher / Developer:</strong> Dela Teaches LLC ("we," "us," or "our")<br>
+  <strong>Support &amp; Feedback:</strong> <a href="{{ '/dte_app/' | relative_url }}">Dela Teaches Ewe Support Hub</a><br>
   <strong>Contact Email:</strong> <a href="mailto:info@delateaches.com">info@delateaches.com</a></p>
 
   <p>At <strong>Dela Teaches LLC</strong>, we are committed to respecting and safeguarding your privacy. This Privacy Policy specifically governs your use of our mobile application, <strong>Dela Teaches Ewe</strong> (the "App"), available on mobile platforms including Apple iOS and Google Android.</p>
@@ -217,14 +221,14 @@ permalink: /dela_teaches_ewe_privacy/
     <ol class="app-toc-grid">
       <li><a href="#summary">1. Summary of Data Practices</a></li>
       <li><a href="#direct-collection">2. Information We Do Not Collect Directly</a></li>
-      <li><a href="#automatic-collection">3. Information Collected Automatically & Google SDKs</a></li>
-      <li><a href="#apple-att">4. Apple App Tracking Transparency (ATT) & IDFA</a></li>
+      <li><a href="#automatic-collection">3. Information Collected Automatically &amp; Google SDKs</a></li>
+      <li><a href="#apple-att">4. Apple App Tracking Transparency (ATT) &amp; IDFA</a></li>
       <li><a href="#third-party-protection">5. Third-Party Data Protections (Apple Guideline 5.1.1)</a></li>
-      <li><a href="#retention-security">6. Data Retention & Storage Security</a></li>
-      <li><a href="#children">7. Children's Privacy (COPPA & Family Friendly)</a></li>
-      <li><a href="#user-rights">8. Your Privacy Rights & Revoking Consent</a></li>
+      <li><a href="#retention-security">6. Data Retention &amp; Storage Security</a></li>
+      <li><a href="#children">7. Children's Privacy (COPPA &amp; Family Friendly)</a></li>
+      <li><a href="#user-rights">8. Your Privacy Rights &amp; Revoking Consent</a></li>
       <li><a href="#updates">9. Updates to this Policy</a></li>
-      <li><a href="#contact">10. Contact Us</a></li>
+      <li><a href="#contact">10. Contact Us &amp; App Support</a></li>
     </ol>
   </div>
 
@@ -237,7 +241,7 @@ permalink: /dela_teaches_ewe_privacy/
         <th>Data Category</th>
         <th>Collected by App?</th>
         <th>Shared with Third Parties?</th>
-        <th>Purpose & Notes</th>
+        <th>Purpose &amp; Notes</th>
       </tr>
     </thead>
     <tbody>
@@ -248,7 +252,7 @@ permalink: /dela_teaches_ewe_privacy/
         <td>No user registration or account creation is required to use Dela Teaches Ewe.</td>
       </tr>
       <tr>
-        <td><strong>User Learning Progress</strong> (Quiz & spelling scores, flashcard state)</td>
+        <td><strong>User Learning Progress</strong> (Quiz &amp; spelling scores, flashcard state)</td>
         <td><strong>Stored Locally Only</strong></td>
         <td><strong>No</strong></td>
         <td>Saved on the user's local device only. Never uploaded to our servers.</td>
@@ -260,13 +264,13 @@ permalink: /dela_teaches_ewe_privacy/
         <td>The App plays pre-recorded pronunciation audio files offline. It does not record or transmit your voice.</td>
       </tr>
       <tr>
-        <td><strong>Device & Usage Diagnostics</strong> (Crash logs, OS version, device model)</td>
+        <td><strong>Device &amp; Usage Diagnostics</strong> (Crash logs, OS version, device model)</td>
         <td><strong>Yes</strong> (via Google SDKs)</td>
         <td><strong>Yes</strong> (Google LLC)</td>
         <td>Used for app performance monitoring, crash diagnostics, and service stability.</td>
       </tr>
       <tr>
-        <td><strong>Advertising Identifiers & Tracking</strong> (Apple IDFA / Google GAID)</td>
+        <td><strong>Advertising Identifiers &amp; Tracking</strong> (Apple IDFA / Google GAID)</td>
         <td><strong>Only with User Permission</strong></td>
         <td><strong>Yes</strong> (Google AdMob)</td>
         <td>On iOS 14.5+, tracking requires explicit permission through Apple's ATT prompt. If denied, non-personalized ads are shown.</td>
@@ -288,7 +292,7 @@ permalink: /dela_teaches_ewe_privacy/
     <li><strong>No Voice Recording:</strong> While the App contains an audio player to help you hear authentic Ewe pronunciations, the App plays audio locally and does not record, stream, or store your voice.</li>
   </ul>
 
-  <h2 id="automatic-collection">3. Information Collected Automatically & Google SDKs</h2>
+  <h2 id="automatic-collection">3. Information Collected Automatically &amp; Google SDKs</h2>
   <p>To support ongoing development and deliver advertisements that keep the App free to use, Dela Teaches Ewe integrates software development kits (SDKs) provided by <strong>Google LLC</strong>. In the future, we will also use Google services to perform analytics and tracking.</p>
 
   <h3>A. Google Mobile Ads (Google AdMob)</h3>
@@ -301,7 +305,7 @@ permalink: /dela_teaches_ewe_privacy/
   </ul>
   <p>When tracking permission has not been granted by you, ad requests are configured to request <strong>non-personalized ads</strong>. Non-personalized ads are contextual and rely on general content rather than historical profile data, although they may still utilize coarse location and frequency capping identifiers.</p>
 
-  <h3>B. Google Analytics / Firebase (Tracking & Diagnostics)</h3>
+  <h3>B. Google Analytics / Firebase (Tracking &amp; Diagnostics)</h3>
   <p>To understand how users interact with the App, identify bugs, and improve educational content, we will incorporate Google Analytics tools (such as Google Analytics for Firebase). These services collect aggregated telemetry data including:</p>
   <ul>
     <li>Screens viewed and duration of study sessions.</li>
@@ -315,12 +319,12 @@ permalink: /dela_teaches_ewe_privacy/
     <h4>Google Privacy Disclosures</h4>
     <p style="margin-bottom: 0.5rem;">For comprehensive details on how Google processes, stores, and protects data collected through its SDKs, please refer to Google's official policies:</p>
     <ul style="margin-bottom: 0;">
-      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy & Terms Policy</a></li>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy &amp; Terms Policy</a></li>
       <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use their services</a></li>
     </ul>
   </div>
 
-  <h2 id="apple-att">4. Apple App Tracking Transparency (ATT) & IDFA</h2>
+  <h2 id="apple-att">4. Apple App Tracking Transparency (ATT) &amp; IDFA</h2>
   <p>On Apple iOS (versions 14.5 and later), Apple requires developers to obtain user permission before collecting or using the <strong>Identifier for Advertisers (IDFA)</strong> to track users across apps and websites owned by other companies for targeted advertising or advertising measurement.</p>
 
   <h3>What Is "Tracking" Under Apple Guidelines?</h3>
@@ -337,7 +341,7 @@ permalink: /dela_teaches_ewe_privacy/
   <p>You have the right to modify your tracking preferences at any time directly through your iOS device settings:</p>
   <ol>
     <li>Open the <strong>Settings</strong> app on your Apple device.</li>
-    <li>Scroll down and select <strong>Privacy & Security</strong>.</li>
+    <li>Scroll down and select <strong>Privacy &amp; Security</strong>.</li>
     <li>Tap <strong>Tracking</strong>.</li>
     <li>Locate <strong>Dela Teaches Ewe</strong> in the list and toggle the permission switch <strong>Off</strong> (to revoke tracking) or <strong>On</strong> (to grant tracking).</li>
     <li>Alternatively, you can turn off <em>"Allow Apps to Request to Track"</em> at the top of the Tracking menu to automatically block all tracking requests across all applications on your device.</li>
@@ -347,14 +351,14 @@ permalink: /dela_teaches_ewe_privacy/
   <p>In accordance with <strong>Apple App Store Review Guideline 5.1.1(i)</strong>, we verify and confirm that any third party with whom Dela Teaches Ewe shares user or device data—specifically <strong>Google LLC</strong>—maintains strict organizational, contractual, and technical safeguards that provide the same or equal level of protection of user data as stated in this Privacy Policy and required by Apple's developer guidelines.</p>
   <p>We do not sell your personal information, nor do we transfer data to third parties for purposes unrelated to the operational functionality, performance diagnostics, and advertising operations of Dela Teaches Ewe.</p>
 
-  <h2 id="retention-security">6. Data Retention & Storage Security</h2>
+  <h2 id="retention-security">6. Data Retention &amp; Storage Security</h2>
   <ul>
-    <li><strong>Local Learning Data:</strong> Vocabulary progress, study metrics, and quiz results remain stored solely on your device indefinitely until you choose to uninstall the App or clear device application data.</li>
-    <li><strong>Analytics & Diagnostic Logs:</strong> Diagnostic telemetry and aggregated analytics collected by Google are retained according to Google's standard retention policies (typically between 2 and 14 months) before automated pseudonymization or deletion.</li>
+    <li><strong>Local Learning Data:</strong> Vocabulary progress, study metrics, and quiz &amp; spelling results remain stored solely on your device indefinitely until you choose to uninstall the App or clear device application data.</li>
+    <li><strong>Analytics &amp; Diagnostic Logs:</strong> Diagnostic telemetry and aggregated analytics collected by Google are retained according to Google's standard retention policies (typically between 2 and 14 months) before automated pseudonymization or deletion.</li>
     <li><strong>Security Safeguards:</strong> Although no method of electronic storage or wireless transmission is 100% impenetrable, all network requests made by third-party SDKs within the App are transmitted over secure, encrypted channels utilizing standard Transport Layer Security (TLS/HTTPS).</li>
   </ul>
 
-  <h2 id="children">7. Children's Privacy (COPPA & Family Friendly)</h2>
+  <h2 id="children">7. Children's Privacy (COPPA &amp; Family Friendly)</h2>
   <p>Dela Teaches Ewe is designed as an educational language learning resource for people of all ages interested in learning the Ewe language (<em>Èʋegbe</em>). We take special care regarding minors:</p>
   <ul>
     <li>We do not knowingly collect, request, or solicit personal information from children under the age of 13 (or under 16 in certain jurisdictions) without verified parental consent.</li>
@@ -362,10 +366,10 @@ permalink: /dela_teaches_ewe_privacy/
     <li>Advertising SDK configurations are set to comply with the Children's Online Privacy Protection Act (COPPA). If you believe that a child has provided us with personal information or if you are a parent/guardian wishing to request the deletion of any associated data, please contact us immediately at <a href="mailto:info@delateaches.com">info@delateaches.com</a>.</li>
   </ul>
 
-  <h2 id="user-rights">8. Your Privacy Rights & Revoking Consent</h2>
+  <h2 id="user-rights">8. Your Privacy Rights &amp; Revoking Consent</h2>
   <p>Depending on your jurisdiction (including the European Economic Area under GDPR, the United Kingdom, California under CCPA/CPRA, and other US states), you may have certain rights concerning your data:</p>
   <ul>
-    <li><strong>Right of Access & Portability:</strong> The right to know what personal data is processed about you. Because we do not maintain accounts or identifiable user databases, our third-party partner (Google) handles pseudonymous identifiers as detailed in Google's privacy portal.</li>
+    <li><strong>Right of Access &amp; Portability:</strong> The right to know what personal data is processed about you. Because we do not maintain accounts or identifiable user databases, our third-party partner (Google) handles pseudonymous identifiers as detailed in Google's privacy portal.</li>
     <li><strong>Right to Opt Out of Tracking / Sale / Sharing:</strong> You can opt out of cross-app tracking at any time using Apple's ATT settings (explained in Section 4) or by resetting your advertising identifier in your mobile device's privacy menu.</li>
     <li><strong>Right to Erasure / Deletion:</strong> You can delete all local learning records by uninstalling the App from your device. For questions regarding server logs or third-party partner data deletion, contact us at <a href="mailto:info@delateaches.com">info@delateaches.com</a>.</li>
   </ul>
@@ -373,13 +377,14 @@ permalink: /dela_teaches_ewe_privacy/
   <h2 id="updates">9. Updates to this Policy</h2>
   <p>We may update this Privacy Policy from time to time to reflect modifications in our features, technological enhancements, third-party tracking configurations, or applicable legal and regulatory standards (including updates from Apple App Store policies). Any revisions will be published directly on this page with an updated "Effective Date." We encourage users to review this page periodically.</p>
 
-  <h2 id="contact">10. Contact Us</h2>
+  <h2 id="contact">10. Contact Us &amp; App Support</h2>
   <p>If you have any questions, concerns, comments, or requests regarding this Privacy Policy or the data practices of Dela Teaches Ewe, please feel free to reach out to us:</p>
   <div class="app-privacy-box">
     <h4>Dela Teaches LLC</h4>
-    <p><strong>Attention:</strong> Privacy & Support Officer<br>
+    <p><strong>Attention:</strong> Privacy &amp; Support Officer<br>
     <strong>Website:</strong> <a href="https://delateaches.com" target="_blank" rel="noopener noreferrer">https://delateaches.com</a><br>
+    <strong>App Support Hub:</strong> <a href="{{ '/dte_app/' | relative_url }}">Dela Teaches Ewe Support</a><br>
     <strong>Email:</strong> <a href="mailto:info@delateaches.com">info@delateaches.com</a><br>
-    <strong>Application:</strong> Dela Teaches Ewe (iOS & Android)</p>
+    <strong>Application:</strong> Dela Teaches Ewe (iOS &amp; Android)</p>
   </div>
 </div>
