@@ -2,7 +2,7 @@
 layout: page
 title: Dela Teaches Ewe
 subtitle: Interactive Vocabulary, Native Audio & Pronunciation Quizzes for the Ewe Language
-permalink: /dte_app/
+permalink: /dela_teaches_ewe/
 show_header: false
 ---
 
@@ -320,7 +320,7 @@ show_header: false
 
 <!-- Features Overview -->
 <div class="app-section-header">
-  <h2>Everything You Need to Speak Ewe</h2>
+  <h2>Your Pocket Companion for Learning Ewe</h2>
   <p>Engineered for beginners, heritage learners, and language enthusiasts worldwide.</p>
 </div>
 
@@ -330,7 +330,7 @@ show_header: false
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
     </div>
     <h3>Native Audio Pronunciations</h3>
-    <p>Every word and phrase includes crystal-clear audio spoken with authentic rhythm, tone, and pronunciation so you can speak with true confidence.</p>
+    <p>Every word and phrase includes audio spoken with authentic rhythm, tone, and pronunciation so you can speak with true confidence.</p>
   </div>
 
   <div class="app-feature-card">

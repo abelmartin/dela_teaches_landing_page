@@ -197,7 +197,7 @@ permalink: /dela_teaches_ewe/privacy/
   <div class="privacy-switch-notice">
     <span>Looking for our main website privacy policy or app support?</span>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href="{{ '/dte_app/' | relative_url }}">App Support &amp; Info &rarr;</a>
+      <a href="{{ '/dela_teaches_ewe/' | relative_url }}">App Support &amp; Info &rarr;</a>
       <a href="{{ '/privacy/' | relative_url }}">Website Privacy Policy &rarr;</a>
     </div>
   </div>
@@ -206,7 +206,7 @@ permalink: /dela_teaches_ewe/privacy/
   <strong>Application Name:</strong> Dela Teaches Ewe (DTE)<br>
   <strong>Bundle Identifier:</strong> <code>com.abelmartin.delateachesewe</code><br>
   <strong>Publisher / Developer:</strong> Dela Teaches LLC ("we," "us," or "our")<br>
-  <strong>Support &amp; Feedback:</strong> <a href="{{ '/dte_app/' | relative_url }}">Dela Teaches Ewe Support Hub</a><br>
+  <strong>Support &amp; Feedback:</strong> <a href="{{ '/dela_teaches_ewe/#support' | relative_url }}">Dela Teaches Ewe Support Hub</a><br>
   <strong>Contact Email:</strong> <a href="mailto:info@delateaches.com">info@delateaches.com</a></p>
 
   <p>At <strong>Dela Teaches LLC</strong>, we are committed to respecting and safeguarding your privacy. This Privacy Policy specifically governs your use of our mobile application, <strong>Dela Teaches Ewe</strong> (the "App"), available on mobile platforms including Apple iOS and Google Android.</p>
@@ -383,7 +383,7 @@ permalink: /dela_teaches_ewe/privacy/
     <h4>Dela Teaches LLC</h4>
     <p><strong>Attention:</strong> Privacy &amp; Support Officer<br>
     <strong>Website:</strong> <a href="https://delateaches.com" target="_blank" rel="noopener noreferrer">https://delateaches.com</a><br>
-    <strong>App Support Hub:</strong> <a href="{{ '/dte_app/' | relative_url }}">Dela Teaches Ewe Support</a><br>
+    <strong>App Support Hub:</strong> <a href="{{ '/dela_teaches_ewe/#support' | relative_url }}">Dela Teaches Ewe Support</a><br>
     <strong>Email:</strong> <a href="mailto:info@delateaches.com">info@delateaches.com</a><br>
     <strong>Application:</strong> Dela Teaches Ewe (iOS &amp; Android)</p>
   </div>
